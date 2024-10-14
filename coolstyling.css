@@ -1,0 +1,91 @@
+body {
+    background-image: url("pictures and stuff/fdb550999dbc0adc3d357010548252d4.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px;
+}
+header {
+    border-style: groove;
+    border: hsl(350, 95%, 75%)350, 100%, 88%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    border-width: 30px;
+    margin-bottom: 50px;
+}
+article {
+    border-style: groove;
+    border: 35em hsl(350, 95%, 75%)350, 100%, 88%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    border-width: 30px;
+}
+#image1 {
+    display: inline-block;
+}
+.pagination a {
+    color: black;
+    float: left;
+    align-items: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    
+  }
+  
+  .pagination a.active {
+    background-color: hsl(320, 100%, 57%);
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: white;}
+div {
+    background-color: white;
+}
+video {
+    border-style: groove;
+    border-width: 15px;
+    border-radius: 10px;
+}
+#secret{
+    color: white;
+    text-decoration: none;
+}
+h1 {
+    animation-name: rainbow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes rainbow {
+     10% {color: red;}
+     20% {color: orangered;}
+     30% {color: orange;}
+     40% {color: yellow;}
+     50% {color: greenyellow;}
+     60% {color: green;}
+     70% {color: blue;}
+     80% {color: blueviolet;}
+     90% {color: purple;}
+     100%{color: pink;}
+}
+form {
+    text-align: left;
+    padding: 25px;
+}
+article {
+    margin-bottom: 20px;
+}
+button {
+    border-style: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: hsl(350, 100%, 88%);
+}
+button:hover {
+    animation-name: rainbow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
